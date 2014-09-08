@@ -1,0 +1,627 @@
+/* -------------------------------------------------------------
+	enbolivia.com s.r.l.
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Description: Diseño basado en CSS 2
+	Designer   : Eva Jiménez Choque
+	E - mail   : eva.jmnz@gmail.com
+	Filename   : style.css
+	Version    : 5.0
+	Date       : Nov 17, 2008 (Última Versión)
+------------------------------------------------------------- */
+* {
+	margin: 0;
+	padding: 0;
+	left: 1px;
+	top: 1px;
+}
+
+ body {
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 11px;
+  	 background:#FFFFFF url(file:///C|/Users/Victor/Pictures/images/bg.jpg) top center no-repeat;
+	 color: #000000;/*#929496;*/
+}
+
+
+#contenido{
+	position:inherit;
+	left: 0px;
+	top: 0px;
+	width: x;
+	height: 600px;
+	visibility: visible;
+	overflow: auto;
+} 
+
+#apDiv5 {
+	margin: 0;
+	padding:0;
+	width: 1014px;
+	height: auto;
+	top: 155px;
+	position: absolute;
+	left: 8px;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+#cabezera {
+	width: 1014px;
+	height: 150px;
+}
+	#soluciones{
+		text-align:center;
+		width:auto;
+		margin:100px 0 0 0;
+		*margin: 15px 0 0 0;
+		padding:10px 10px 10px 10px;
+		font-size:16px;
+		font-style:italic;
+		color:#000000;
+	}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+#menu { 
+	 width:990px;
+	 /*padding:0px 5px 0 0px;*/
+	 padding:3px 5px 0 5px;
+	 float:left;
+	 clear:both;
+	 background: url(file:///C|/Users/Victor/Pictures/images/bg_menu.jpg) top center no-repeat;
+	 color:#FFFFFF;
+	 font-size:12px;
+	 position:relative;	 
+ 	 height:28px;
+	 *height:25px;
+}
+	#herramientas{
+		float: right;
+		position:absolute;
+		z-index:100;
+		right:14px;
+		top:0px;
+		width: 140px;
+		height:40px;
+	}
+		
+		#herramientas ul { 
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		#herramientas ul li { 
+			float: left;
+		}
+		#herramientas li span { 
+			display: none;
+		}
+		li#home a { 
+			width: 28px;
+			height: 28px;
+			display: block;
+			background:#000000 url(file:///C|/Users/Victor/Pictures/images/home.gif) no-repeat;
+		}
+		li#home, li#home a:hover { 
+			background:#000000 url(file:///C|/Users/Victor/Pictures/images/home_over.gif) no-repeat;
+		}
+
+		li#contacto a { 
+			width: 28px;
+			height: 28px;
+			display: block;
+			background:#000000 url(file:///C|/Users/Victor/Pictures/images/mail.gif) no-repeat;
+		}
+		li#contacto, li#contacto a:hover { 
+			background:#000000 url(file:///C|/Users/Victor/Pictures/images/mail_over.gif) no-repeat;
+		}
+
+		li#mapa a { 
+			width: 28px;
+			height: 28px;
+			display: block;
+			background:#000000 url(file:///C|/Users/Victor/Pictures/images/mapa.gif) no-repeat;
+		}
+		li#mapa, li#mapa a:hover { 
+			background:#000000 url(file:///C|/Users/Victor/Pictures/images/mapa_over.gif) no-repeat;
+		}
+
+		li#print a { 
+			width: 28px;
+			height: 28px;
+			display: block;
+			background:#000000 url(file:///C|/Users/Victor/Pictures/images/print.gif) no-repeat;
+		}
+		li#print, li#print a:hover { 
+			background:#000000 url(file:///C|/Users/Victor/Pictures/images/print_over.gif) no-repeat;
+		}
+
+		li#friend a { 
+			width: 28px;
+			height: 28px;
+			display: block;
+			background:#000000 url(file:///C|/Users/Victor/Pictures/images/friend.gif) no-repeat;
+		}
+		li#friend, li#friend a:hover { 
+			background:#000000 url(file:///C|/Users/Victor/Pictures/images/friend_over.gif) no-repeat;
+		}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+#columnas {
+	width:786px;
+	min-height:50px;
+	float:left;
+	margin:5px 0;
+	position: absolute;
+	top: 208px;
+}	
+	#nuestros_clientes{
+		width:400px;
+		height:295px;
+		margin:5px 10px 0 0;
+		padding:8px;
+		float:left;
+		background: #FFFFFF url(file:///C|/Users/Victor/Pictures/images/bg_bloque.jpg) repeat-x;
+		border:1px solid #AEAEAF;
+	}
+	#nuestros_clientes img, #bloque_noticias img{
+		padding:2px;
+		background-color: #CCCCCC;
+	}
+	#bloque_noticias{
+		width:320px;
+		height:289px;
+		margin:5px 0 0 0;
+		padding:10px;
+		float:left;
+		background: #FFFFFF url(file:///C|/Users/Victor/Pictures/images/bg_bloque.jpg) repeat-x;
+		border:1px solid #AEAEAF;
+	}
+	
+		h1{
+			color:#33A4B6;
+			font-size:16px;
+		}
+		p{
+	margin:10px 0;
+	line-height:15px;
+		}
+		
+	#interior{
+	width:1014px;
+	margin:0 0 0 0;
+	border:1px solid #AEAEAF;
+	padding:0px;
+	background: #FFFFFF url(file:///C|/Users/Victor/Pictures/images/bg_bloque.jpg) repeat-x;
+	float:left;
+	color:#333333;
+	left: 0px;
+	top: 0px;
+	}
+	
+	#interior2{
+	width:760px;
+	min-height:880px;
+	border:1px solid #AEAEAF;
+	padding:10px;
+	background: #FFFFFF url(file:///C|/Users/Victor/Pictures/images/bg_bloque.jpg) repeat-x;
+	float:left;
+	clear:both;
+	top: -5px;
+	}
+
+/*		#interior table 
+		{
+			text-align: left;
+			border-spacing: 0px;
+			border-collapse: collapse;			
+		}
+		#interior table tbody td:hover
+		{   
+		   background-color: #F1F5F6;
+		   color:#42829D !important;
+		}
+		#interior img{
+			margin:5px;
+		}
+
+*/
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+#col_der{
+	width:214px;
+ 	margin:5px 0 0 0;
+	float: left;
+}
+#col_der_nl{
+	width:214px;
+ 	margin:0px 0 0 0;
+	float: left;
+}
+	#noticias{
+		width:212px;
+/*		height:100px;
+*/		float:left;
+		padding:0px 0 0 0;
+		clear:both;
+	}	
+		#noticias p{
+			border:1px solid #AEAEAF;
+			height:75px;
+			width:190px;
+			background-color:#F2F5F6;
+			padding:10px;
+			margin:5px 0 0 0;
+			font-size:10px;
+			float:left;
+			clear:both;
+			color:#333333;
+		}
+		#noticias .titulo{
+			font-size:14px;
+			color:#9EC867;
+			font-weight:bold;
+			float:left;
+			clear:both;
+		}
+		#noticias span{
+			width:auto;
+			margin:0 0 10px 0;
+		}	
+	#cliente_destacado{
+		width:190px;
+		height:188px;
+		float:left;
+		margin:5px 0 0 0;
+		padding:10px;
+		border:1px solid #AEAEAF;
+		overflow:hidden;		
+	}
+	.img_izq{
+		float: left;
+		margin:3px;
+	}
+	.img_der{
+		float: right;
+		margin:3px;
+	}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+#footer {
+	width:990px;
+	height:58px;
+	clear: both;
+	padding:5px;
+	text-align:center;
+	color:#999999;
+	background:url(file:///C|/Users/Victor/Pictures/images/bg_footer.jpg) top center no-repeat;
+	font-size:10px;
+	position: absolute;
+	left: 4px;
+}
+#footer p.foo{ 
+	margin:5px 0 0 0;
+	width:680px;
+	float:left;
+}
+
+#footer herramientas_foot
+{float:left;
+}
+.miembro_tic{
+float:left; 
+width:auto;
+}
+
+.compartir{
+float:left; width:auto; padding:21px 0px 0 3px;
+}
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.text_input{
+	background-color:#EAEAEA;
+	border:1px solid #E1E1E2;
+	color:#346292;
+	margin:2px;
+}
+.boton{
+	color:#FFFFFF;
+	background-color:#5F80AC;
+	border:1px solid #346292;
+}
+.leer_mas{
+	color:#33A4B6;
+	width:auto;
+	border-bottom: 1px dotted #68C3EE;
+}
+a{
+	color:#33A4B6;
+	text-decoration:none;
+}
+a:hover{
+	color: #333333;
+}
+.img{
+	margin:5px 0 0 0;
+}
+ul, ol{
+margin:5px 20px;}
+
+
+
+.modulo{
+	width:300px;
+	border:1px solid #40BDE8;
+	margin:0 10px;
+	float:left;
+}
+
+.oculto{
+		display:none;
+		visibility:no;
+}
+
+.modulo2{
+	width:300px;
+	border:1px solid #40BDE8;
+	margin:0 10px;
+	float:left;
+	background:url(file:///C|/Users/Victor/Pictures/images/flecha.gif) top repeat;
+	color:#003366;
+	font-size:14px;
+	text-align:center;
+}
+
+/*para el formulario*/
+
+form ul{
+	margin:0 auto;
+	list-style-type:none;
+}
+form li{
+	margin:10px;
+}
+form fieldset{
+	font: 0.8em "Helvetica Neue", helvetica, arial, sans-serif;
+	color: #336699;
+	padding:10px;
+	border: solid 1px #33CCFF;
+	width:450px;
+	margin:0 auto;
+	}
+	
+form legend {
+	font-weight: bold;
+	padding: 2px 6px;
+	margin-bottom:8px;
+	}
+
+form label{
+	font-weight: bold;
+	line-height: normal;
+	text-align: right;
+	margin-right: 10px;
+	position: relative;
+	display: block;
+	float: left;
+	width: 95px;
+	height: 0;
+	}
+form select, input{
+	border: solid 1px #33CCFF;
+	background-color:#EBF5FA;
+}
+form input.Button{
+	padding:2px 5px;
+	margin:0 auto;
+	background-color:#006699;
+	color:#FFFFFF;
+}
+form input.Button:hover{
+	background-color:#FFCC00;
+}
+
+/*nuevo copiardo por norman para la lista de paquetes*/
+
+.modulocotizacion3{
+	width:140px;
+	height:24px;
+    float:left;
+    background:url(file:///C|/Users/Victor/Pictures/images/flecha.gif) top center no-repeat;
+    color:#003366;
+    font-size:12px;
+	text-align:center;
+	padding:2px 0;
+}
+
+.modulocotizacion3_selected a{
+    color:#FFF;
+}
+
+.modulocotizacion3_selected a:hover{
+    color:#FFF;
+}
+
+.modulocotizacion3_selected{
+	width:140px;
+	height:24px;
+    float:left;
+    background:url(file:///C|/Users/Victor/Pictures/images/flecha_over.gif) top center no-repeat;
+    color:#FFF;
+    font-size:12px;
+	text-align:center;
+	padding:2px 0;
+	cursor:pointer;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - */
+a.enbolivia span{
+	display:none;
+}
+a.enbolivia{	
+	display:block;
+	width:300px;
+	height:80px;
+}
+
+a img{
+	border:0;
+}
+div.titulo_app span{
+display:block;
+float:left;
+margin:0 5px 0 0;
+}
+
+/*DEsde aqui*/
+/* Planes de Hosting */
+
+	table.planes{
+		background:#FFFFFF url(file:///C|/Users/Victor/Pictures/images/bg_plan.jpg) top left no-repeat;
+		font:11px Verdana, Arial, Helvetica, sans-serif;
+		min-height:300px;
+	}
+	td h1{
+		color:#0F66A7;
+		font-size:14px;
+		font-weight:bold;
+		margin:0 0 0 5px;
+	}
+	td p{
+		font-size:10px;
+		margin:0 5px 5px 5px;
+	}
+	td{
+	padding:0px;
+	}
+	td h2{
+	margin:60px 0 0 0;
+	text-align:center;
+	color:#FFFFFF;
+	}
+	td h3{
+	margin:20px 0 0 0;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:18px;
+	}
+/*       tabla comparativa        */
+a.solicitar span{
+	display:none;
+}
+a.solicitar{	
+	display:block;
+	width:87px;
+	height:28px;
+	background:#FFFFFF url(file:///C|/Users/Victor/Pictures/images/solicitar.gif) top left no-repeat;
+	margin:0 auto;
+}
+a.solicitar:hover{	
+	background:#FFFFFF url(file:///C|/Users/Victor/Pictures/images/solicitar_over.gif) top left no-repeat;
+}
+a.enbolivia span{
+	display:none;
+}
+a.enbolivia{	
+	display:block;
+	width:300px;
+	height:80px;
+}
+.ilimitado{
+	font-weight:bold;
+	background-color: #E5E5E5;
+	color:#006699;
+
+}
+.ilimitado2{
+	font-weight:bold;
+	background-color: #E5E5E5;
+	color:#006699;
+	border:1px solid #0099CC;
+	padding:2px;
+	font-size:9px;
+	margin:5px 0 0 30px;
+
+}
+a.ilimitado2:hover{
+	background-color:#003366;
+	color:#FFFFFF;
+}
+
+.especial{
+	border:1px solid #CBCBCC;
+	width:205px;
+	background-color:#F2F5F6;
+	padding:10px;
+	margin:5px 0 0 0;
+	font-size:10px;
+}
+/*para lal ista de sistemas*/
+.especial_lista{
+			   border:1px solid #CBCBCC;
+			   width:720px;
+			   background-color:#FFFFFF;
+			   padding:10px;
+			   margin:5px 0 0 0;
+			   font-size:10px;
+			   height:160px;
+}
+
+/* tabla */
+#interior table.clase tr td p.listado{
+	width:220px;
+	height:180px;
+	overflow:hidden;
+	border:1px solid  #CCCCCC;
+	text-align:center;
+}
+
+#interior table tr td p a img.imagen{
+	width:220px;
+	overflow:hidden;
+	text-align:center;
+}
+
+.gmaps{
+
+width:600px;
+height:400px;
+overflow:hidden;
+background-color:#999999;
+margin-left:auto;
+margin-right:auto;
+
+
+}
+
+.titulo_home{
+width:400px;
+/*height:20px;*/
+}
+
+.titulo_h{
+float:left;
+width:310px;
+}
+.imagen_h {
+float:right;
+width:67px;
+}
+/************************* Paginador ******************************/
+.pagination {
+	padding: 3px;
+	margin: 3px;
+	text-align:left;
+	float:left;
+}
+.pagination a {
+	padding: 2px 3px 2px 3px;
+	margin: 3px 0;
+	/*border: 1px solid #EEE;*/
+	text-decoration: none; /* no underline */
+}
+.pagination a:hover, .pagination a:active {
+	
+	color: #000000;
+}
+.pagination .current {
+	padding: 2px 3px 2px 3px;
+	margin: 2px;
+	color: #000000;
+}

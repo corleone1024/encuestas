@@ -1,0 +1,411 @@
+@charset "utf-8";
+.parrafo1 {
+	font-family: Tahoma;
+	font-size: 13px;
+	line-height: normal;
+	color: #333333;
+}
+.titulo1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000066;
+}
+.tituloCuadroPeq {
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000000;
+	border: thin solid #000000;
+	height: 22px;
+	width: 120px;
+	padding-top: 5px;
+	padding-left: 5px;
+	position: relative;
+	top: 35px;
+	left: 10px;
+	z-index: 2;
+	visibility: visible;
+	background-color: #FFFFFF;
+}
+.parrafoCuadro {
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000066;
+	background-color: #FFFFFF;
+	text-align: justify;
+	padding: 10px;
+	border: thin solid #000000;
+	clip: rect(auto,auto,auto,35px);
+	z-index: 3;
+	visibility: visible;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 60px;
+}
+
+.contenedorParrafos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: none;
+	text-align: justify;
+	color: #000000;
+}
+.relleno_tabla {
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000066;
+	background-color: #FFFFFF;
+	padding: 10px;
+	border: thin solid #000000;
+	z-index: 1;
+	left: 50px;
+	visibility: visible;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 40px;
+	width: 90%;
+	text-align: justify;
+	position: static;
+}
+.rellenoInterTablaSup {
+	color: #000000;
+	padding: 15px;
+	background-color: #333333;
+}
+.rellenoCelda {
+	margin: 5px;
+	padding: 5px;
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: normal;
+	background-color: #FFFFFF;
+	text-align: justify;
+}
+.rellenoAzul {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #8896C4;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+.rellenoBlanco {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	margin: 5px;
+	padding: 5px;
+}
+
+.textCAguamarFormu {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	color: #055E8C;
+	padding: 5px;
+}
+.titulo2 {
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	padding: 5px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.textoResaltado1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	color: #1A2674;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.bordeunLado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #1A2674;
+	background-color: #716F6F;
+	border-right-style: solid;
+	border-right-color: #999999;
+	border-right-width: thin;
+	background-position: right;
+	clip: rect(auto,auto,auto,auto);
+	padding-right: 5px;
+}
+.tablaEncabezado2 {
+	padding-top: 5px;
+	background-color: #716F6F;
+}
+.inputBuscar {
+	font-size: 12px;
+	background-color: #FFFFFF;
+	margin-top: 2px;
+	padding: 5px;
+}
+.botonAzul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #1A2674;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #999999;
+	border-left-color: #CCCCCC;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	height: 28px;
+	margin-top: 3px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+.botonAzulEntrar {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #1A2674;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #666666;
+	border-left-color: #CCCCCC;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	height: 28px;
+	margin-top: 3px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+
+a:link {
+	color: #1A2674;
+}
+a:visited { color:#33A4B6; }
+.tituloPost {
+	font-family: "Century Gothic";
+	font-size: 20px;
+	font-weight: bold;
+	color: #000033;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+A.class1 {color:#189DE2;}
+A.class1:link  {text-decoration: none; color: #189DE2;}
+A.class1:visited {text-decoration: none; color: #189DE2;}
+A.class1:hover {text-decoration: underline; color: #189DE2;}
+A.class1:active {text-decoration: none; color: #189DE2;}
+
+
+A.class2 {color:#B4C469;}
+A.class2:link {text-decoration: none; color: #B4C469;}
+A.class2:visited {text-decoration: none; color: #B4C469;}
+A.class2:hover {text-decoration: underline; color: #B4C469;}
+A.class2:active {text-decoration: none; color: #B4C469;}
+
+.tituloPosteadopor {
+	font-family: "Century Gothic";
+	font-size: 12px;
+	font-weight: normal;
+	color: #000033;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.textoMes {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000033;
+	padding-top: 0px;
+}
+.textoFechaDia {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #000033;
+	padding-top: 0px;
+}
+.botonAzulContinuar {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFFFFF;
+	background-color: #1A2674;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #666666;
+	border-left-color: #FFFFFF;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	height: 50px;
+	margin-top: 5px;
+	margin-right: 9px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	padding: 0px;
+	width: 200px;
+}
+.textoEnTablaPost {
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000066;
+	background-color: #FFFFFF;
+	visibility: visible;
+	text-align: justify;
+	margin: 10px;
+	padding: 5px;
+	line-height: 30px;
+}
+.imagenEnTablaPost {
+	font-weight: normal;
+	background-color: #FFFFFF;
+	visibility: visible;
+	text-align: center;
+	margin: 10px;
+	padding: 5px;
+	vertical-align: middle;
+}
+.textoAnio {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #000033;
+	padding-top: 17px;
+}
+.relleno_tablaPassword {
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000066;
+	background-color: #FFFFFF;
+	border: thin solid #000000;
+	z-index: 1;
+	visibility: visible;
+	text-align: justify;
+	width: 100%;
+	margin: 5px;
+	padding: 5px;
+}
+.botonAzulSiguiente {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #1A2674;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #666666;
+	border-left-color: #FFFFFF;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	height: auto;
+	width: auto;
+	margin: 10px;
+	padding: 5px;
+}
+.Desactivado1 {
+	color: #333333;
+	font-size: 12px;
+	background-color: #666666;
+	visibility: visible;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #666666;
+	border-left-color: #FFFFFF;
+	font-weight: bold;
+	margin: 3px;
+	padding: 3px;
+	vertical-align: bottom;
+	width: 18px;
+}
+.botonAzulSiguiente2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #1A2674;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #666666;
+	border-left-color: #000000;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	height: auto;
+	width: auto;
+	margin: 10px;
+	padding: 5px;
+}

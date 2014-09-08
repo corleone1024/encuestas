@@ -1,0 +1,139 @@
+pass e10adc3949ba59abbe56e057f20f883e
+-- phpMyAdmin SQL Dump
+-- version 3.5.1
+-- http://www.phpmyadmin.net
+--
+-- Servidor: localhost
+-- Tiempo de generación: 21-07-2014 a las 17:20:39
+-- Versión del servidor: 5.5.24-log
+-- Versión de PHP: 5.4.3
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Base de datos: `formulario`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `formulario`
+--
+
+CREATE TABLE IF NOT EXISTS `formulario` (
+  `cod_f` int(10) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(25) NOT NULL,
+  `desc` varchar(25) NOT NULL,
+  `nro_preg` int(10) NOT NULL,
+  `fecha` date NOT NULL,
+  `estado` varchar(25) NOT NULL,
+  `cod_usr` int(10) NOT NULL,
+  PRIMARY KEY (`cod_f`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `opcion`
+--
+
+CREATE TABLE IF NOT EXISTS `opcion` (
+  `cod_opcion` int(10) NOT NULL AUTO_INCREMENT,
+  `opcion` varchar(10) NOT NULL,
+  `cod_multiple` int(10) NOT NULL,
+  PRIMARY KEY (`cod_opcion`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `pregunta`
+--
+
+CREATE TABLE IF NOT EXISTS `pregunta` (
+  `cod_preg` int(10) NOT NULL AUTO_INCREMENT,
+  `pregunta` varchar(200) NOT NULL,
+  `cod_f` int(10) NOT NULL,
+  `cod_tipo_preg` int(10) NOT NULL,
+  PRIMARY KEY (`cod_preg`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `respuesta_abierta`
+--
+
+CREATE TABLE IF NOT EXISTS `respuesta_abierta` (
+  `cod_abierta` int(10) NOT NULL AUTO_INCREMENT,
+  `respuesta` varchar(200) NOT NULL,
+  `cod_preg` int(10) NOT NULL,
+  PRIMARY KEY (`cod_abierta`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `respuesta_multiple`
+--
+
+CREATE TABLE IF NOT EXISTS `respuesta_multiple` (
+  `cod_multiple` int(10) NOT NULL AUTO_INCREMENT,
+  `nro_respuesta` int(10) NOT NULL,
+  `cod_preg` int(10) NOT NULL,
+  PRIMARY KEY (`cod_multiple`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `respuesta_radio_button`
+--
+
+CREATE TABLE IF NOT EXISTS `respuesta_radio_button` (
+  `cod_radio` int(10) NOT NULL AUTO_INCREMENT,
+  `opcion` int(2) NOT NULL,
+  `cod_preg` int(10) NOT NULL,
+  PRIMARY KEY (`cod_radio`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `tipo_pregunta`
+--
+
+CREATE TABLE IF NOT EXISTS `tipo_pregunta` (
+  `cod_tipo_preg` int(10) NOT NULL AUTO_INCREMENT,
+  `tipo` varchar(25) NOT NULL,
+  PRIMARY KEY (`cod_tipo_preg`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `usuario`
+--
+
+CREATE TABLE IF NOT EXISTS `usuario` (
+  `cod_usr` int(10) NOT NULL,
+  `nombre_usr` varchar(25) NOT NULL,
+  `paterno` varchar(25) NOT NULL,
+  `materno` varchar(25) NOT NULL,
+  `login` varchar(25) NOT NULL,
+  `password` varchar(25) NOT NULL,
+  `nivel` varchar(25) NOT NULL,
+  `fono` int(25) NOT NULL,
+  `email` varchar(25) NOT NULL,
+  `img` varchar(200) NOT NULL,
+  `estado` varchar(25) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `usuario`
+--
+
+INSERT INTO `usuario` (`cod_usr`, `nombre_usr`, `paterno`, `materno`, `login`, `password`, `nivel`, `fono`, `email`, `img`, `estado`) VALUES
+(1, 'Juan', 'Perez', 'Perez', 'admin', 'e10adc3949ba59abbe56e057f', 'administrador', 77766655, 'juan@gmail.com', '', 'habilitado'),
+(2, 'Jose', 'Roca', 'Rodriguez', 'joselito', 'e10adc3949ba59abbe56e057f', 'user', 77666555, 'joselito@gmail.com', '', 'habilitado');
