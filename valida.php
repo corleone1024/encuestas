@@ -1,4 +1,6 @@
-﻿<?php
+﻿
+<?php
+//jajajajajaj
    session_start();
    $qusr = $_REQUEST["login"];
    $qcla = $_REQUEST["psw"];
